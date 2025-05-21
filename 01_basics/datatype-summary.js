@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')  // Symbol -(Datatype)
 const anotherId = Symbol('123')
 
-console.log(id===anotherId);  // false
+// console.log(id===anotherId);  // false
 
 const bigNumber  = 555555555555555n
 
@@ -37,5 +37,32 @@ const myFunction = function(){
 
 // how to know datatype of any
 
-console.log(bigNumber) // undefined
+// console.log(bigNumber) // undefined
 
+
+
+
+
+////// ***************************************************Memory
+
+//Stack (Primitive)
+//Heap (Non-Primitive)
+
+let myYoutubenmae = "hiteshchaudary"
+
+let anothername = myYoutubenmae;
+anothername="chai aur code"
+
+// console.log(myYoutubenmae)  // o/p=>hiteshchaudary  //copy
+// console.log(anothername)    //  chai aur code
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email="hitesh@google.com"
+
+console.log(userOne.email);  // o/p =>hitesh@google.com   // reference
+console.log(userTwo.email);  // o/p =>hitesh@google.com
