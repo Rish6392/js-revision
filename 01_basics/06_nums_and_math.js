@@ -37,6 +37,6 @@ console.log((Math.random()*10)+1);  // any random value bw 1 and 10
 const min = 10;
 const max = 20;
 
-console.log(Math.floor(Math.random()*(max-min+1))+min)  // number bw 10 and 20
+console.log(Math.floor(Math.random()*(max-min+1))+min)  // number bw 10 and 20  *******************************IMP******************
 
 
