@@ -1,6 +1,6 @@
 // # Primitive
 
-// 7 Categories : String,Number,Boolean,null,undefined,Symbol,BigInt
+// 7 Categories : String,Number,Boolean,null,undefined,Symbol,BigInt  // Copy generate hoat hai 
 
 const score = 100
 const scoreValue = 100.3
@@ -45,8 +45,8 @@ const myFunction = function(){
 
 ////// ***************************************************Memory
 
-//Stack (Primitive)
-//Heap (Non-Primitive)
+//Stack (Primitive)   // copy generate hota hai 
+//Heap (Non-Primitive)  /// reference liya jata hai 
 
 let myYoutubenmae = "hiteshchaudary"
 
