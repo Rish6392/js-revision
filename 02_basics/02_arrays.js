@@ -6,16 +6,16 @@ const dc = ["superman","flash","batman"];
 // console.log(marvel_heroes); // [ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]
 // console.log(marvel_heroes[3][1]);    // flash
 
-// const allHero = marvel_heroes.concat(dc);  //[ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
+// const allHero = marvel_heroes.concat(dc);  //[ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]  ////
 // console.log(allHero);
 
-const all_new_hero = [...marvel_heroes,...dc]; // Spread operator 
+const all_new_hero = [...marvel_heroes,...dc]; // Spread operator //////********************USE THIS
 // [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
 // console.log(all_new_hero);
 
 const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]];
 
-const real_another_array = another_array.flat(Infinity);
+const real_another_array = another_array.flat(Infinity);  /////
 // [1, 2, 3, 4, 5,6, 7, 6, 7, 4,5]
 // console.log(real_another_array);
 
