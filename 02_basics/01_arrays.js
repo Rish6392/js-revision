@@ -52,6 +52,6 @@ const myn1 = myArr.slice(1,3);
 console.log(myn1);  // [ 1, 2 ]
 console.log("B ",myArr);  // B  [ 0, 1, 2, 3, 4, 5 ]
 
-const myn2 = myArr.splice(1,3);  // [ 1,2,3 ]   //*********************************INTERVIEW */ DIFF BW SLICE AND SPLICE IS THAT SPLICE CHANGES THE ARRAY
+const myn2 = myArr.splice(1,3);  // [ 1,2,3 ]   //*********************************INTERVIEW */ DIFF BW SLICE AND SPLICE IS THAT SPLICE CHANGES THE ORIGINAL ARRAY AND SLICE DO NOT 
 console.log("B ",myArr);        //   B  [ 0, 4, 5 ]
 console.log(myn2);
