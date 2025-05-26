@@ -6,10 +6,11 @@ let valueInNumber = Number(score)
 
 // console.log(typeof (valueInNumber) );
 
-// console.log(valueInNumber);  // o/p => NaN as it is not pure number and in case of undefined also
-                             //  o/p => 0 in case of null
+// console.log(valueInNumber);  // o/p => NaN as it is not pure number and in case of undefined also //////
+                             //  o/p => 0 in case of null  ////////
 
 
+/////////////////////////////////////////*******************
 // "33" => 33
 //  "33abc" => NaN
 // true => 1
@@ -30,7 +31,7 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 // console.log(stringNumber)      //  => 33
-// console.log(typeof stringNumber)   //=> String(Number Converted to String)
+// console.log(typeof stringNumber)   //=> String(Number Converted to String)  ///////////
 
 
 
