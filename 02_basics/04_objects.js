@@ -51,13 +51,45 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);   // { id: '123abc', name: 'Sammy', isLoggedIn: false }
+// console.log(tinderUser);   // { id: '123abc', name: 'Sammy', isLoggedIn: false }
 
-console.log(Object.keys(tinderUser));  // [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser));  // [ '123abc', 'Sammy', false ]
+// console.log(Object.keys(tinderUser));  // [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser));  // [ '123abc', 'Sammy', false ]
 
-console.log(Object.entries(tinderUser));
-// [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.entries(tinderUser));
+// // [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))  // true
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))  // true
+
+
+//////// Object 3L
+
+const course = {
+    coursename:"js in Hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+//course.courseInstructor
+
+// const {courseInstructor} = course
+const {courseInstructor:Instructor} = course  // value destructor courseInstructor is treated and Instructor
+
+// console.log(courseInstructor)  // hitesh
+console.log(Instructor)         // hitesh destructured
+
+
+//Api
+
+// {
+//     name:"hitesh",
+//     coursename:"js in hindi",
+//     price:"free"
+// }
+
+{
+    {},
+    {},
+    {}
+}
