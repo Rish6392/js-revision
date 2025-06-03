@@ -88,8 +88,8 @@ console.log(Instructor)         // hitesh destructured
 //     price:"free"
 // }
 
-{
-    {},
-    {},
-    {}
-}
+// {
+//     {},
+//     {},
+//     {}
+// }
