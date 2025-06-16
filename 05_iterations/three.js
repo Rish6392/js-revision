@@ -30,7 +30,7 @@ map.set('IN',"India")
 // op-> IN :- India
 //////  UN :- Unitaed nation
 //////  FR :- France
-for(const [key,value] of map){
+for(const [key,value] of map){  // Syntax Imp
     console.log(key,':-',value);
 }
 
@@ -38,7 +38,7 @@ const myObject = {
     'game1':'NFS',
     'game2':'Spiderman'
 }
-//////////// myObject is not iterable
+//////////// myObject is not iterable we cant use for of loop
 // for(const [key,value] of myObject){
 //     console.log(key,':-',value)
 // }
