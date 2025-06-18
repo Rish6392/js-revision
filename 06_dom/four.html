@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code | DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+         <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+       const li = document.createElement('li');
+       li.innerHTML = `${langName}`   /// traverse karna pad raha hai
+       document.querySelector('.language').
+       appendChild(li)
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+   
+
+    // optimise appproach
+    function addOptiLanguage(langName){
+       const li = document.createElement('li');
+       const addText = document.createTextNode(langName)
+       li.appendChild(addText)
+       document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage('golang')
+
+    // Edit 
+   const secondlang = document.querySelector("li:nth-child(2)")
+   //secondLang.innerHTML="Mojo"   // not optmised traverse pura karna padega 
+   const newli = document.createElement('li')
+   newli.textContent = "Mojo"
+   secondlang.replaceWith(newli)
+
+   //edit
+   const firstlang = document.querySelector("li:first-child")
+   firstlang.outerHTML = <li>typescript</li>
+
+   //remove
+   const lastLang = document.queryselector('li:last-child')
+   lastLang.remove()
+</script>
+</html>
