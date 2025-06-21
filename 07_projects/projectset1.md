@@ -82,3 +82,23 @@ form.addEventListener('submit', function (e) {
 
 
 ```
+
+## project 3 sol code 
+
+```javascript
+
+const clock = document.getElementById('clock')
+//const clock = document.querySelector('#clock')
+
+
+
+// isko har bar call karna hai
+// Interview
+
+setInterval(function(){
+  let date = new Date()
+  //console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+},1000);// for every second
+
+```
